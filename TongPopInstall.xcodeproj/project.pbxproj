@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D18FCBC1EE941E200B13142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FCBB1EE941E200B13142 /* AppDelegate.swift */; };
+		5D18FCBE1EE941E200B13142 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FCBD1EE941E200B13142 /* ViewController.swift */; };
+		5D18FCC11EE941E200B13142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D18FCBF1EE941E200B13142 /* Main.storyboard */; };
+		5D18FCC41EE941E300B13142 /* TongPopInstall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FCC21EE941E200B13142 /* TongPopInstall.xcdatamodeld */; };
+		5D18FCC61EE941E300B13142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D18FCC51EE941E300B13142 /* Assets.xcassets */; };
+		5D18FCC91EE941E300B13142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D18FCC71EE941E300B13142 /* LaunchScreen.storyboard */; };
+		5D18FCD41EE941E300B13142 /* TongPopInstallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FCD31EE941E300B13142 /* TongPopInstallTests.swift */; };
+		5D18FCDF1EE941E300B13142 /* TongPopInstallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FCDE1EE941E300B13142 /* TongPopInstallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D18FCD01EE941E300B13142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D18FCB01EE941E200B13142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D18FCB71EE941E200B13142;
+			remoteInfo = TongPopInstall;
+		};
+		5D18FCDB1EE941E300B13142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D18FCB01EE941E200B13142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D18FCB71EE941E200B13142;
+			remoteInfo = TongPopInstall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D18FCB81EE941E200B13142 /* TongPopInstall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TongPopInstall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D18FCBB1EE941E200B13142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D18FCBD1EE941E200B13142 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D18FCC01EE941E200B13142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D18FCC31EE941E300B13142 /* TongPopInstall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TongPopInstall.xcdatamodel; sourceTree = "<group>"; };
+		5D18FCC51EE941E300B13142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D18FCC81EE941E300B13142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D18FCCA1EE941E300B13142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D18FCCF1EE941E300B13142 /* TongPopInstallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TongPopInstallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D18FCD31EE941E300B13142 /* TongPopInstallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TongPopInstallTests.swift; sourceTree = "<group>"; };
+		5D18FCD51EE941E300B13142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D18FCDA1EE941E300B13142 /* TongPopInstallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TongPopInstallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D18FCDE1EE941E300B13142 /* TongPopInstallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TongPopInstallUITests.swift; sourceTree = "<group>"; };
+		5D18FCE01EE941E300B13142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D18FCB51EE941E200B13142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D18FCCC1EE941E300B13142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D18FCD71EE941E300B13142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D18FCAF1EE941E200B13142 = {
+			isa = PBXGroup;
+			children = (
+				5D18FCBA1EE941E200B13142 /* TongPopInstall */,
+				5D18FCD21EE941E300B13142 /* TongPopInstallTests */,
+				5D18FCDD1EE941E300B13142 /* TongPopInstallUITests */,
+				5D18FCB91EE941E200B13142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D18FCB91EE941E200B13142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D18FCB81EE941E200B13142 /* TongPopInstall.app */,
+				5D18FCCF1EE941E300B13142 /* TongPopInstallTests.xctest */,
+				5D18FCDA1EE941E300B13142 /* TongPopInstallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D18FCBA1EE941E200B13142 /* TongPopInstall */ = {
+			isa = PBXGroup;
+			children = (
+				5D18FCBB1EE941E200B13142 /* AppDelegate.swift */,
+				5D18FCBD1EE941E200B13142 /* ViewController.swift */,
+				5D18FCBF1EE941E200B13142 /* Main.storyboard */,
+				5D18FCC51EE941E300B13142 /* Assets.xcassets */,
+				5D18FCC71EE941E300B13142 /* LaunchScreen.storyboard */,
+				5D18FCCA1EE941E300B13142 /* Info.plist */,
+				5D18FCC21EE941E200B13142 /* TongPopInstall.xcdatamodeld */,
+			);
+			path = TongPopInstall;
+			sourceTree = "<group>";
+		};
+		5D18FCD21EE941E300B13142 /* TongPopInstallTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D18FCD31EE941E300B13142 /* TongPopInstallTests.swift */,
+				5D18FCD51EE941E300B13142 /* Info.plist */,
+			);
+			path = TongPopInstallTests;
+			sourceTree = "<group>";
+		};
+		5D18FCDD1EE941E300B13142 /* TongPopInstallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D18FCDE1EE941E300B13142 /* TongPopInstallUITests.swift */,
+				5D18FCE01EE941E300B13142 /* Info.plist */,
+			);
+			path = TongPopInstallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D18FCB71EE941E200B13142 /* TongPopInstall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D18FCE31EE941E300B13142 /* Build configuration list for PBXNativeTarget "TongPopInstall" */;
+			buildPhases = (
+				5D18FCB41EE941E200B13142 /* Sources */,
+				5D18FCB51EE941E200B13142 /* Frameworks */,
+				5D18FCB61EE941E200B13142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TongPopInstall;
+			productName = TongPopInstall;
+			productReference = 5D18FCB81EE941E200B13142 /* TongPopInstall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D18FCCE1EE941E300B13142 /* TongPopInstallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D18FCE61EE941E300B13142 /* Build configuration list for PBXNativeTarget "TongPopInstallTests" */;
+			buildPhases = (
+				5D18FCCB1EE941E300B13142 /* Sources */,
+				5D18FCCC1EE941E300B13142 /* Frameworks */,
+				5D18FCCD1EE941E300B13142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D18FCD11EE941E300B13142 /* PBXTargetDependency */,
+			);
+			name = TongPopInstallTests;
+			productName = TongPopInstallTests;
+			productReference = 5D18FCCF1EE941E300B13142 /* TongPopInstallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D18FCD91EE941E300B13142 /* TongPopInstallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D18FCE91EE941E300B13142 /* Build configuration list for PBXNativeTarget "TongPopInstallUITests" */;
+			buildPhases = (
+				5D18FCD61EE941E300B13142 /* Sources */,
+				5D18FCD71EE941E300B13142 /* Frameworks */,
+				5D18FCD81EE941E300B13142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D18FCDC1EE941E300B13142 /* PBXTargetDependency */,
+			);
+			name = TongPopInstallUITests;
+			productName = TongPopInstallUITests;
+			productReference = 5D18FCDA1EE941E300B13142 /* TongPopInstallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D18FCB01EE941E200B13142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tong;
+				TargetAttributes = {
+					5D18FCB71EE941E200B13142 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5D18FCCE1EE941E300B13142 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D18FCB71EE941E200B13142;
+					};
+					5D18FCD91EE941E300B13142 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D18FCB71EE941E200B13142;
+					};
+				};
+			};
+			buildConfigurationList = 5D18FCB31EE941E200B13142 /* Build configuration list for PBXProject "TongPopInstall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D18FCAF1EE941E200B13142;
+			productRefGroup = 5D18FCB91EE941E200B13142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D18FCB71EE941E200B13142 /* TongPopInstall */,
+				5D18FCCE1EE941E300B13142 /* TongPopInstallTests */,
+				5D18FCD91EE941E300B13142 /* TongPopInstallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D18FCB61EE941E200B13142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D18FCC91EE941E300B13142 /* LaunchScreen.storyboard in Resources */,
+				5D18FCC61EE941E300B13142 /* Assets.xcassets in Resources */,
+				5D18FCC11EE941E200B13142 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D18FCCD1EE941E300B13142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D18FCD81EE941E300B13142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D18FCB41EE941E200B13142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D18FCBE1EE941E200B13142 /* ViewController.swift in Sources */,
+				5D18FCC41EE941E300B13142 /* TongPopInstall.xcdatamodeld in Sources */,
+				5D18FCBC1EE941E200B13142 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D18FCCB1EE941E300B13142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D18FCD41EE941E300B13142 /* TongPopInstallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D18FCD61EE941E300B13142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D18FCDF1EE941E300B13142 /* TongPopInstallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D18FCD11EE941E300B13142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D18FCB71EE941E200B13142 /* TongPopInstall */;
+			targetProxy = 5D18FCD01EE941E300B13142 /* PBXContainerItemProxy */;
+		};
+		5D18FCDC1EE941E300B13142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D18FCB71EE941E200B13142 /* TongPopInstall */;
+			targetProxy = 5D18FCDB1EE941E300B13142 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D18FCBF1EE941E200B13142 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D18FCC01EE941E200B13142 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D18FCC71EE941E300B13142 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D18FCC81EE941E300B13142 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D18FCE11EE941E300B13142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D18FCE21EE941E300B13142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D18FCE41EE941E300B13142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TongPopInstall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tong.TongPopInstall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5D18FCE51EE941E300B13142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TongPopInstall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tong.TongPopInstall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5D18FCE71EE941E300B13142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TongPopInstallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tong.TongPopInstallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TongPopInstall.app/TongPopInstall";
+			};
+			name = Debug;
+		};
+		5D18FCE81EE941E300B13142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TongPopInstallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tong.TongPopInstallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TongPopInstall.app/TongPopInstall";
+			};
+			name = Release;
+		};
+		5D18FCEA1EE941E300B13142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TongPopInstallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tong.TongPopInstallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TongPopInstall;
+			};
+			name = Debug;
+		};
+		5D18FCEB1EE941E300B13142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TongPopInstallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tong.TongPopInstallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TongPopInstall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D18FCB31EE941E200B13142 /* Build configuration list for PBXProject "TongPopInstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D18FCE11EE941E300B13142 /* Debug */,
+				5D18FCE21EE941E300B13142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D18FCE31EE941E300B13142 /* Build configuration list for PBXNativeTarget "TongPopInstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D18FCE41EE941E300B13142 /* Debug */,
+				5D18FCE51EE941E300B13142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D18FCE61EE941E300B13142 /* Build configuration list for PBXNativeTarget "TongPopInstallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D18FCE71EE941E300B13142 /* Debug */,
+				5D18FCE81EE941E300B13142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D18FCE91EE941E300B13142 /* Build configuration list for PBXNativeTarget "TongPopInstallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D18FCEA1EE941E300B13142 /* Debug */,
+				5D18FCEB1EE941E300B13142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5D18FCC21EE941E200B13142 /* TongPopInstall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D18FCC31EE941E300B13142 /* TongPopInstall.xcdatamodel */,
+			);
+			currentVersion = 5D18FCC31EE941E300B13142 /* TongPopInstall.xcdatamodel */;
+			path = TongPopInstall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5D18FCB01EE941E200B13142 /* Project object */;
+}
