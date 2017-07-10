@@ -15,6 +15,8 @@
 		5D18FCC91EE941E300B13142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D18FCC71EE941E300B13142 /* LaunchScreen.storyboard */; };
 		5D18FCD41EE941E300B13142 /* TongPopInstallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FCD31EE941E300B13142 /* TongPopInstallTests.swift */; };
 		5D18FCDF1EE941E300B13142 /* TongPopInstallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FCDE1EE941E300B13142 /* TongPopInstallUITests.swift */; };
+		5D18FCF31EEA716B00B13142 /* TongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18FCF21EEA716B00B13142 /* TongButton.swift */; };
+		8BD425B722D16DA8A79D867F /* libPods-TongPopInstall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BADC06B3E5C972CE2916233 /* libPods-TongPopInstall.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BADC06B3E5C972CE2916233 /* libPods-TongPopInstall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TongPopInstall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACEDBC0F48A23EB0098CBEA /* Pods-TongPopInstall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TongPopInstall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TongPopInstall/Pods-TongPopInstall.debug.xcconfig"; sourceTree = "<group>"; };
 		5D18FCB81EE941E200B13142 /* TongPopInstall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TongPopInstall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D18FCBB1EE941E200B13142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D18FCBD1EE941E200B13142 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,9 @@
 		5D18FCDA1EE941E300B13142 /* TongPopInstallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TongPopInstallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D18FCDE1EE941E300B13142 /* TongPopInstallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TongPopInstallUITests.swift; sourceTree = "<group>"; };
 		5D18FCE01EE941E300B13142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D18FCEC1EE943FC00B13142 /* TongPopInstall-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TongPopInstall-Bridging-Header.h"; sourceTree = "<group>"; };
+		5D18FCF21EEA716B00B13142 /* TongButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TongButton.swift; sourceTree = "<group>"; };
+		AE2DA7DCEB3AEF81325111D2 /* Pods-TongPopInstall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TongPopInstall.release.xcconfig"; path = "Pods/Target Support Files/Pods-TongPopInstall/Pods-TongPopInstall.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD425B722D16DA8A79D867F /* libPods-TongPopInstall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		311630754904D1EFC3BD84ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ACEDBC0F48A23EB0098CBEA /* Pods-TongPopInstall.debug.xcconfig */,
+				AE2DA7DCEB3AEF81325111D2 /* Pods-TongPopInstall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5D18FCAF1EE941E200B13142 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +100,8 @@
 				5D18FCD21EE941E300B13142 /* TongPopInstallTests */,
 				5D18FCDD1EE941E300B13142 /* TongPopInstallUITests */,
 				5D18FCB91EE941E200B13142 /* Products */,
+				311630754904D1EFC3BD84ED /* Pods */,
+				75310C05BDA120A4E6526FCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +120,13 @@
 			children = (
 				5D18FCBB1EE941E200B13142 /* AppDelegate.swift */,
 				5D18FCBD1EE941E200B13142 /* ViewController.swift */,
+				5D18FCF21EEA716B00B13142 /* TongButton.swift */,
 				5D18FCBF1EE941E200B13142 /* Main.storyboard */,
 				5D18FCC51EE941E300B13142 /* Assets.xcassets */,
 				5D18FCC71EE941E300B13142 /* LaunchScreen.storyboard */,
 				5D18FCCA1EE941E300B13142 /* Info.plist */,
 				5D18FCC21EE941E200B13142 /* TongPopInstall.xcdatamodeld */,
+				5D18FCEC1EE943FC00B13142 /* TongPopInstall-Bridging-Header.h */,
 			);
 			path = TongPopInstall;
 			sourceTree = "<group>";
@@ -128,6 +149,14 @@
 			path = TongPopInstallUITests;
 			sourceTree = "<group>";
 		};
+		75310C05BDA120A4E6526FCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BADC06B3E5C972CE2916233 /* libPods-TongPopInstall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D18FCE31EE941E300B13142 /* Build configuration list for PBXNativeTarget "TongPopInstall" */;
 			buildPhases = (
+				45DD6B7EE90FFC8D07908D51 /* [CP] Check Pods Manifest.lock */,
 				5D18FCB41EE941E200B13142 /* Sources */,
 				5D18FCB51EE941E200B13142 /* Frameworks */,
 				5D18FCB61EE941E200B13142 /* Resources */,
+				63327D309F1E9B1F1F7FFFC8 /* [CP] Embed Pods Frameworks */,
+				512E8ADEA65645D3EDCF5AD8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +228,7 @@
 				TargetAttributes = {
 					5D18FCB71EE941E200B13142 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					5D18FCCE1EE941E300B13142 = {
@@ -257,6 +290,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45DD6B7EE90FFC8D07908D51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		512E8ADEA65645D3EDCF5AD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TongPopInstall/Pods-TongPopInstall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63327D309F1E9B1F1F7FFFC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TongPopInstall/Pods-TongPopInstall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D18FCB41EE941E200B13142 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +346,7 @@
 				5D18FCBE1EE941E200B13142 /* ViewController.swift in Sources */,
 				5D18FCC41EE941E300B13142 /* TongPopInstall.xcdatamodeld in Sources */,
 				5D18FCBC1EE941E200B13142 /* AppDelegate.swift in Sources */,
+				5D18FCF31EEA716B00B13142 /* TongButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,24 +496,31 @@
 		};
 		5D18FCE41EE941E300B13142 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ACEDBC0F48A23EB0098CBEA /* Pods-TongPopInstall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TongPopInstall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tong.TongPopInstall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TongPopInstall/TongPopInstall-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5D18FCE51EE941E300B13142 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2DA7DCEB3AEF81325111D2 /* Pods-TongPopInstall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TongPopInstall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tong.TongPopInstall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TongPopInstall/TongPopInstall-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -509,6 +598,7 @@
 				5D18FCE51EE941E300B13142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D18FCE61EE941E300B13142 /* Build configuration list for PBXNativeTarget "TongPopInstallTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +607,7 @@
 				5D18FCE81EE941E300B13142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D18FCE91EE941E300B13142 /* Build configuration list for PBXNativeTarget "TongPopInstallUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +616,7 @@
 				5D18FCEB1EE941E300B13142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
